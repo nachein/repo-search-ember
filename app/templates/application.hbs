@@ -1,3 +1,9 @@
-<h2 id="title">Welcome to Ember</h2>
-
-{{outlet}}
+<header class="header">
+    <h2 id="title">Show me your repos</h2>
+    <!-- {{input value=value key-up=(action 'handleFilterEntry') class="light" placeholder="Filter By City"}} -->
+    {{input class="light" placeholder="Type in user name"}}
+    <a>Search</a>
+</header>
+<section class="body">
+  {{outlet}}
+</section>
